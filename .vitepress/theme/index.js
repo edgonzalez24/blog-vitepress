@@ -23,7 +23,7 @@ export default {
                 href: '/',
                 rel: 'noopener',
               },
-              [h('span', '< Regresar')]
+              [h('span', '< Back')]
             ),
           ]
         )
