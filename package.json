@@ -4,11 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
+    "dev": "concurrently \"nodemon --watch blog -e md collection.mjs\" && vitepress dev",
+    "build": "node collection.mjs && vitepress build",
     "preview": "vitepress preview"
   },
   "dependencies": {
+    "concurrently": "^7.6.0",
+    "gray-matter": "^4.0.3",
+    "nodemon": "^2.0.20",
+    "remove-markdown": "^0.5.0",
     "vitepress": "^1.0.0-alpha.45",
     "vue": "^3.2.47"
   }

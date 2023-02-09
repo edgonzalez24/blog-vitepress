@@ -37,3 +37,46 @@
   font-weight: bold;
   font-size: 2rem;
 }
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  color: #000;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.date {
+  font-weight: bold;
+  color: #545d7a;
+  font-size: 0.875rem;
+}
+.article-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.link {
+  text-decoration: underline;
+}

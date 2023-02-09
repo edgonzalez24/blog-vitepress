@@ -9,3 +9,4 @@ dist
 packages/*/LICENSE
 .yalc
 yalc.lock
+data.json
